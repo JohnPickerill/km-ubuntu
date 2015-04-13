@@ -20,10 +20,11 @@ sudo apt-get -y install python-pip
 
 #elasticsearch
 cd ~
+sudo apt-get -y curl
 sudo apt-get install -y  openjdk-6-jre
 wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.deb
 dpkg -i elasticsearch-0.90.7.deb
-/vagrant/makeindex
+/vagrant/makeindex.bat
 
 #application
 sudo pip install virtualenv 
