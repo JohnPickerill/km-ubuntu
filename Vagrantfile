@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "hashicorp/precise64"
   config.vm.network "public_network", :bridge => '300Mbps Wireless USB Adapter'
  
-  config.vm.network "forwarded_port", guest: 5001, host: 5001
+  config.vm.network "forwarded_port", guest: 5001, host: 5002
   config.vm.network :forwarded_port, guest: 80, host: 8081 
   config.vm.network :forwarded_port, guest: 9200, host: 9200 
   config.vm.hostname ="knowman"
