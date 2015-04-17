@@ -24,7 +24,7 @@ cd ~
 sudo apt-get install -y python-software-properties
 sudo apt-get install -y curl
 # openjdk
-sudo apt-get install -y  openjdk-6-jre
+sudo apt-get install -y  openjdk-7-jre
 #or oracle - needs interactivity
 #sudo add-apt-repository ppa:webupd8team/java
 #sudo apt-get update
