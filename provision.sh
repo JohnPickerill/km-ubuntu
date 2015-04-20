@@ -42,6 +42,12 @@ sudo apt-get install -y  openjdk-7-jre
 wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.2.deb
 sudo dpkg -i elasticsearch-1.4.2.deb
  
+# elastic search from zip for openshift
+#https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.2.tar.gz 
+# tar xf elasticsearch-1.4.2
+# cd elasticsearch-1.4.2
+#./bin/elasticsearch
+ 
 ### NOT starting elasticsearch by default on bootup, please execute
  sudo update-rc.d elasticsearch defaults 95 10
 ### In order to start elasticsearch, execute
