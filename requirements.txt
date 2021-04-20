@@ -15,7 +15,7 @@ iniparse==0.4
 itsdangerous==0.24
 javapackages==1.0.0
 lxml==3.2.1
-py==1.4.26
+py==1.10.0
 pycurl==7.19.0
 pygobject==3.8.2
 pygpgme==0.3
